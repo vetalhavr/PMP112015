@@ -1,0 +1,21 @@
+n=int(input('n= '))
+k=int(input('k= '))
+S=0
+h=n-k
+resultn=1
+resultk=1
+resulth=1
+for k in range (0,n+1):
+    S+=k
+    while n>1 :
+        resultn=resultn*n
+        n=n-1
+    while k>1 :
+        resultk=resultk*k
+        k=k-1
+    while h>1 :
+        resulth=resulth*h
+        h=h-1
+C= resultn/(resultk*resulth)
+S=S+C
+print('Result ',int(S+1))
