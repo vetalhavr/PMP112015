@@ -1,4 +1,4 @@
-# вводимо значення n-них доданків
+# 
 n = int(input ("n= "))
 s=0
 for i in range (1,n+1):
@@ -10,5 +10,5 @@ print("suma= ",s)
 
 
 
-#Карпія Юліана ПМп-11
+#Yulian Karpiy PMp-11
 
