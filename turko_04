@@ -1,9 +1,0 @@
-k=float(input('k='))
-s=0
-if k<0:
-    print('Error, type k>0')
-else:
-    s=(2**k)
-    k=k-1
-    s+=s
-    print('Result=', s)
