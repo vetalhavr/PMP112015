@@ -1,0 +1,19 @@
+n=int(raw_input('n='))
+m=[]
+if n>3:
+ for i in range(n):
+    a=[]
+    for j in range(n):
+        e=int(raw_input())
+        a.append(e)
+    m.append(a)
+ max1=m[0][0]
+ for i in range(n):
+        if m[i][i]>max1:
+            max1=m[i][i]
+ max2=m[0][n-1]
+ for i in range(n):
+    if m[i][n-(i+1)]>max2:
+       max2=m[i][n-(i+1)]
+ print max(max1,max2)
+else: print 'n>3'
